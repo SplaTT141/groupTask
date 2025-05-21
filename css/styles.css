@@ -1,0 +1,167 @@
+body,
+body * {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  text-align: center;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.pic-row4 {
+  display: flex;
+  gap: 0;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 2rem;
+}
+
+.pic-row4 img {
+  width: 100%;
+  max-width: 9rem;
+}
+
+.under-pic-row4-text {
+  display: flex;
+  flex-direction: column;
+}
+
+.under-pic-row4-text p {
+  margin-top: 1rem;
+}
+
+.under-pic-row4-text p:first-child {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.under-pic-row4-text a {
+  text-transform: uppercase;
+  color: black;
+  margin-top: 1rem;
+}
+
+.promotion {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3rem;
+  background-color: #cdd2dc;
+}
+
+.promotion-text {
+  margin-left: 1.5rem;
+}
+
+.promotion-text h1 {
+  text-transform: uppercase;
+  font-size: 1.5rem;
+}
+
+.promotion-text p:last-child {
+  font-size: 0.9rem;
+}
+
+.footer-section {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 4rem;
+  margin-left: 10%;
+  margin-right: 10%;
+  flex-wrap: wrap;
+}
+
+.section-description {
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+}
+
+.left-section {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+
+.left-section .email-input,
+.left-section .socials {
+  margin-left: 2.2rem;
+}
+
+.email-input input {
+  padding: 0.4rem 1.2rem 0.4rem 0;
+  font-size: 0.7rem;
+  width: 13.5em;
+}
+
+.email-input button {
+  text-transform: uppercase;
+  background-color: #000;
+  color: #fff;
+  padding: 0.4rem 1.5rem;
+  border: none;
+  font-size: 0.7rem;
+}
+
+.left-section .socials a {
+  text-decoration: none;
+  color: #000;
+  font-size: 2rem;
+  margin-top: 0.6em;
+  margin-right: 0.9rem;
+}
+
+.middle-section {
+  display: flex;
+  flex-direction: column;
+}
+
+.middle-section a {
+  text-decoration: none;
+  color: #000;
+  text-align: start;
+  font-size: 0.9rem;
+  margin-bottom: 0.5em;
+  margin-left: 7em;
+}
+.right-section {
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+}
+
+.right-section-content {
+  margin-left: 2.4rem;
+}
+
+.right-section-content p {
+  font-size: 0.9rem;
+  margin-bottom: 0.2rem;
+}
+
+.right-section button {
+  display: flex;
+  flex-direction: column;
+  font-size: 0.8rem;
+  width: 17rem;
+  padding: 0.4rem;
+  background-color: #fff;
+  color: #000;
+  text-transform: uppercase;
+  margin-bottom: 1.1rem;
+}
+
+.right-section .payment {
+  margin-top: 1.5rem;
+}
+
+.right-section .payment img {
+  width: 2.8rem;
+  height: 2.2rem;
+}

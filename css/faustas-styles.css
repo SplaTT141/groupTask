@@ -1,0 +1,73 @@
+.top-section {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.column {
+  flex: 1;
+  text-align: center;
+  padding: 10px;
+  background-color: transparent;
+  border: none;
+  border-radius: 0;
+  box-shadow: none;
+}
+
+.column img {
+  width: 100%;
+  height: auto;
+  border-radius: 0;
+  margin-bottom: 10px;
+}
+
+.column h3 {
+  font-size: 18px;
+  margin-bottom: 5px;
+  text-align: left;
+}
+
+h2 {
+  font-size: 15px;
+  font-weight: normal;
+  color: #333;
+  text-align: left;
+  text-shadow: none;
+  line-height: 1.4;
+}
+
+.shop-now {
+  display: block;
+  margin-top: 10px;
+  padding: 8px 0;
+  color: black;
+  text-decoration: underline;
+  text-align: left;
+}
+
+.shop-now:hover {
+  color: #ff6347;
+}
+.sale-blocks-wrapper {
+  width: 140%;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.Sale60 img {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+.blokai img {
+  width: 16%;
+  max-width: 960px;
+  margin: 0 auto;
+}
+.blokai {
+  background-color: gainsboro;
+  padding-top: 0%;
+  max-width: 900px;
+  margin: 0 auto;
+}
