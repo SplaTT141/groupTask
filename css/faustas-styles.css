@@ -49,8 +49,8 @@ h2 {
   color: #ff6347;
 }
 .sale-blocks-wrapper {
-  width: 140%;
-  max-width: 900px;
+  width: 100%;
+  /* max-width: 900px; */
   margin: 0 auto;
 }
 
@@ -60,14 +60,21 @@ h2 {
   display: block;
   margin: 0 auto;
 }
-.blokai img {
-  width: 16%;
-  max-width: 960px;
-  margin: 0 auto;
-}
 .blokai {
+  display: flex;
+  justify-content: center;
+  gap: 4px;
   background-color: gainsboro;
   padding-top: 0%;
-  max-width: 900px;
+  /* max-width: 900px; */
   margin: 0 auto;
+}
+
+.blokai img {
+  width: 16%;
+  /* height: auto;
+  aspect-ratio: 1; */
+  max-width: 960px;
+  /* margin: 0 auto; */
+  margin-top: 2px;
 }
