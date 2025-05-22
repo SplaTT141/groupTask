@@ -198,6 +198,11 @@ body {
 
   .footer-section .middle-section p {
     text-align: start;
+    margin-left: -35%;
+  }
+
+  .footer-section .middle-section a {
+    margin-left: 0;
   }
 
   .footer-section .right-section {
@@ -207,7 +212,7 @@ body {
 
 @media (max-width: 480px) {
   .footer-section {
-    margin-left: 2%;
-    margin-right: 2%;
+    margin-left: 0;
+    margin-right: 0;
   }
 }
