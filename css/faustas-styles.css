@@ -64,7 +64,7 @@ h2 {
   display: flex;
   justify-content: center;
   gap: 4px;
-  background-color: gainsboro;
+  background-color: #d8dff2;
   padding-top: 0%;
   /* max-width: 900px; */
   margin: 0 auto;
