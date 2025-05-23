@@ -131,7 +131,7 @@ header {
 }
 
 .hero {
-  background: url("/img/melyna.png") no-repeat;
+  background: url("../img/melyna.png") no-repeat;
   background-size: cover;
   height: 40vh;
   width: 100%;
