@@ -179,6 +179,28 @@ body {
   cursor: pointer;
 }
 
+.top-dots {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  gap: 5px;
+}
+
+.first-dot,
+.second-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 10px;
+}
+
+.first-dot {
+  background-color: #bab6b6;
+}
+
+.second-dot {
+  background-color: #6d6c6c;
+}
+
 @media (max-width: 1115px) {
   .footer-section {
     justify-content: space-around;
